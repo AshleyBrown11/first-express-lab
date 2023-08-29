@@ -19,7 +19,7 @@ app.get('/greetings', (req, res) => {
 });
 
 
-app.get('/greetings:name', (req, res) => {
+app.get('/greetings/:name', (req, res) => {
   res.send('<Name> Hello, Jimmy Boy! It is so great to see you!</Name>');
 });
 
